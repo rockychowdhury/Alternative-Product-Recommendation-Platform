@@ -19,8 +19,8 @@ const Navbar = () => {
         { name: 'My recommendations', path: '/my-recommendations', private: true }
     ]
     return (
-        <div className='py-4'>
-            <div className='flex items-center justify-between'>
+        <div className='py-4 sticky top-0 bg-action/50 rounded-b-lg mb-5 text-white z-50'>
+            <div className='flex items-center justify-between container'>
                 <Logo position={"navbar"}></Logo>
                 <ul className='lg:flex gap-6 font-medium hidden text-lg'>
                     {
